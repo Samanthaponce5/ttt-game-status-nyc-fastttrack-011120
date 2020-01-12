@@ -57,7 +57,7 @@ end
 
 def winner(board)
   if won?(board) 
-    "x" || "O"
+    "X" || "O"
   
 end
   end
