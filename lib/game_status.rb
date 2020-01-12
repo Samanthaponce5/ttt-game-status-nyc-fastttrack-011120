@@ -37,8 +37,9 @@ WIN_COMBINATIONS = [
 end
 
 def full?(board)
-  board.all? {|index| index == "X" || index == "O"}
+  board.all? {|ful| ful == "X" || ful == "O"}
 end
+def draw?(board)
     
     
     
