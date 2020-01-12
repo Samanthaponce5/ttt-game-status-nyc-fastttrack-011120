@@ -37,14 +37,7 @@ WIN_COMBINATIONS = [
 end
 
 def full?(board)
-  board.each do |ful|
-  if ful == "X" || ful == "O"
-    true
-  elsif ful == " "
-    false
-end
-end
-
+  board.all? {|index| index == "X" || index == "O"}
 end
     
     
