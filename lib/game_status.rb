@@ -40,7 +40,7 @@ def full?(board)
   board.all? {|ful| ful == "X" || ful == "O"}
 end
 def draw?(board)
-  if !won?(board) && full(board)
+  if !won?(board) && full?(board)
     true
   else
     false
