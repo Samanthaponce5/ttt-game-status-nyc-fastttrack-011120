@@ -43,7 +43,7 @@ def full?(board)
   else true
 end
 end
-ful
+return ful
 end
     
     
