@@ -39,7 +39,8 @@ end
 def full?(board)
   board.each do |ful|
   if ful == "X" || "O"
-    true
+    false
+  else true
 end
 end
 end
